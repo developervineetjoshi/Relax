@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:background="@color/white_text_color"
+android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="721dp"
+        tools:context=".screen.title.TitleFragment">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#00B2FF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:text="Relax"
+                android:textSize="21dp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingStart="5dp"
+            android:text="A walk in the woods—or even a sound machine that plays recordings from nature—can affect heart rate and alter connections in the brain, say researchers.
+           \nAnd relax uses same principle to help you get refreshed, by listining to some pleasant nature sounds."
+            android:textSize="15dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#6f6f6f"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:scaleType="centerCrop"
+            app:lottie_rawRes="@raw/focus" />
+
+
+        <Button
+            android:id="@+id/play_game_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="15dp"
+            android:text="Relax for a min"
+            android:textColor="#ffffff"
+            android:background="#00B2FF"
+ />
+
+        <Button
+            android:id="@+id/set_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="80dp"
+            android:text="About App"
+            android:textColor="#ffffff"
+            android:background="#00B2FF"/>
+
+
+    </LinearLayout>
+</ScrollView>
+</layout>

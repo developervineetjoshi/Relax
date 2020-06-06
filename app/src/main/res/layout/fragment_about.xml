@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+
+        android:gravity="center_vertical"
+        tools:context=".screen.about.AboutFragment">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="App info"
+    android:gravity="center"
+    android:textColor="#000000"
+    android:textSize="25dp"
+
+    />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kotlin"
+            android:layout_marginTop="25dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app was created as an\n assignment given to me\nin the GOOGLE DEVELOPERS 30 Days Of Kotlin programme"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Vineet Joshi"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</layout>
