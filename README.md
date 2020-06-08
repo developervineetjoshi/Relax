@@ -32,7 +32,7 @@ implementation "pl.droidsonroids.gif:android-gif-drawable:1.2.18"
 ## Screenshots
 Main Screen | Breathing Excercise Screen | About App
 ------------|----------------------------|----------
-![](https://github.com/developervineetjoshi/Relax/blob/master/screenshot/home.jpg) | ![](https://github.com/mayupandey/Breathing_Exercise/blob/master/screenshot/breathing.jpeg?raw=true) | ![](https://github.com/mayupandey/Breathing_Exercise/blob/master/screenshot/aboutus.jpeg?raw=true)
+![](https://github.com/developervineetjoshi/Relax/blob/master/screenshot/home.jpg) | ![](https://github.com/developervineetjoshi/Relax/blob/master/screenshot/about%20app.jpg) | ![](https://github.com/developervineetjoshi/Relax/blob/master/screenshot/relax2.jpg)
 
 
 
